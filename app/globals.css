@@ -139,4 +139,13 @@
   .media-placeholder {
     @apply flex items-center justify-center bg-muted text-muted-foreground;
   }
+  .dot-grid {
+     background-image: radial-gradient(
+             circle,
+             color-mix(in oklch, var(--foreground) 22%, transparent) 1.5px,
+             transparent 1.5px
+     );
+     background-size: 24px 24px;
+   }
+
 }

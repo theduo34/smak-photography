@@ -10,34 +10,24 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-const serviceDescriptions: Record<string, string> = {
-  Weddings: "Full-day coverage that captures every detail of your celebration.",
-  Portraits: "Individual, couple, and family sessions in studio or on location.",
-  Events: "Conferences, parties, and milestones documented candidly.",
-  Studio: "Headshots and product photography with clean studio lighting.",
-  Commercial: "Brand and campaign imagery for businesses across Ghana.",
-};
-
 export default async function Page() {
-  const [settings, featuredAlbums] = await Promise.all([
+  const [settings, featuredAlbums, packages] = await Promise.all([
     fetchQuery(api.siteSettings.get, {}),
     fetchQuery(api.albums.listFeatured, {}),
+    fetchQuery(api.packages.listActive, {}),
   ]);
 
   if (!settings) {
     return null;
   }
 
-  const services = siteConfig.categories.map((category) => ({
-    name: category,
-    description: serviceDescriptions[category] ?? "Tailored coverage built around your day.",
-  }));
+  const popularPackages = packages.filter((pkg) => pkg.popular).slice(0, 3);
 
   return (
     <HomePage
       hero={settings.hero}
       featuredAlbums={featuredAlbums}
-      services={services}
+      popularPackages={popularPackages}
       aboutSnippet={settings.aboutSnippet}
       contact={{ phone: settings.phone, whatsapp: settings.whatsapp }}
     />

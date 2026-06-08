@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { cn, waLink } from "@/lib/utils";
 
 type WhatsAppButtonProps = {
   phone: string;
@@ -15,9 +15,7 @@ export function WhatsAppButton({
   className,
   size = "default",
 }: WhatsAppButtonProps) {
-  const href = `https://wa.me/${phone.replace(/[^0-9]/g, "")}${
-    message ? `?text=${encodeURIComponent(message)}` : ""
-  }`;
+  const href = waLink(phone, message);
 
   return (
     <a

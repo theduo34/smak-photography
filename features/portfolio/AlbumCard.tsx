@@ -24,24 +24,25 @@ export function AlbumCard({ album, index = 0 }: AlbumCardProps) {
       transition={{ duration: 0.5, delay: (index % 6) * 0.06, ease: "easeOut" }}
     >
       <Link href={`/portfolio/${album.slug}`} className="group block">
-        <div className="relative aspect-[4/5] overflow-hidden rounded-lg">
+        <div className="relative aspect-[16/11] overflow-hidden rounded-xl">
           <Image
             src={album.cover.url}
             alt={album.cover.alt}
             fill
             placeholder="blur"
             blurDataURL={album.cover.blurDataURL}
-            sizes="(min-width: 1024px) 32vw, (min-width: 640px) 48vw, 100vw"
-            className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+            sizes="(min-width: 1024px) 48vw, 100vw"
+            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
           />
-          <span className="absolute top-3 left-3 rounded-full bg-background/90 px-3 py-1 text-xs font-medium text-foreground">
-            {album.category}
-          </span>
         </div>
-        <h3 className="mt-3 text-lg font-medium text-foreground group-hover:text-muted-foreground">
-          {album.title}
-        </h3>
-        <p className="text-sm text-muted-foreground">{album.photoCount} photos</p>
+        <div className="mt-5 flex flex-col gap-1.5">
+          <span className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
+            {album.category} · {album.photoCount} photos
+          </span>
+          <h3 className="text-2xl font-medium tracking-tight text-foreground transition-colors group-hover:text-muted-foreground sm:text-3xl">
+            {album.title}
+          </h3>
+        </div>
       </Link>
     </motion.div>
   );
