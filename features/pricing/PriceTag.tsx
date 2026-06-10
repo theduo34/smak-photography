@@ -6,12 +6,19 @@ type PriceTagProps = {
   currency: string;
   priceType: Doc<"packages">["priceType"];
   className?: string;
+  accentClassName?: string;
 };
 
-export function PriceTag({ price, currency, priceType, className }: PriceTagProps) {
+export function PriceTag({
+  price,
+  currency,
+  priceType,
+  className,
+  accentClassName = "text-primary",
+}: PriceTagProps) {
   if (priceType === "custom") {
     return (
-      <span className={cn("text-3xl font-bold tracking-tight text-foreground", className)}>
+      <span className={cn("text-3xl font-bold tracking-tight", accentClassName, className)}>
         Custom
       </span>
     );
@@ -23,7 +30,7 @@ export function PriceTag({ price, currency, priceType, className }: PriceTagProp
         <span className="text-sm text-muted-foreground">from</span>
       )}
       <span className="text-xs font-medium text-muted-foreground">{currency}</span>
-      <span className="text-3xl font-bold tracking-tight text-foreground">
+      <span className={cn("text-3xl font-bold tracking-tight", accentClassName)}>
         {price.toLocaleString("en-US")}
       </span>
     </span>
