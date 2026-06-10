@@ -70,7 +70,7 @@ export function EnquiryDialog({
   if (isDesktop) {
     return (
       <Dialog open={open} onOpenChange={onOpenChange}>
-        <DialogContent className="sm:max-w-md">
+        <DialogContent className="sm:max-w-lg p-8">
           <DialogHeader>
             <DialogTitle>Send an enquiry</DialogTitle>
             <DialogDescription>

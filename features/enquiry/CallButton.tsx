@@ -13,13 +13,13 @@ export function CallButton({ phone, className, size = "default" }: CallButtonPro
     <a
       href={telLink(phone)}
       className={cn(
-        buttonVariants({ variant: "outline", size }),
-        "border-whatsapp/40 hover:border-whatsapp hover:bg-whatsapp/10 dark:border-whatsapp/40 dark:hover:border-whatsapp dark:hover:bg-whatsapp/10",
+        buttonVariants({ variant: "default", size }),
+        "bg-phone text-primary-foreground hover:bg-phone/85",
         className
       )}
     >
-      <Phone data-icon="inline-start" className="text-whatsapp" />
-      Call {phone}
+      <Phone data-icon="inline-start" />
+      Voice Phone Call
     </a>
   );
 }

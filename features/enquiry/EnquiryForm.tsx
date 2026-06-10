@@ -82,7 +82,7 @@ export function EnquiryForm({ source, packageId, packageName, onSuccess }: Enqui
           rows={4}
         />
       </div>
-      <Button type="submit" disabled={submitting}>
+      <Button type="submit" disabled={submitting} size={"lg"}>
         {submitting ? "Sending..." : "Send enquiry"}
       </Button>
     </form>
