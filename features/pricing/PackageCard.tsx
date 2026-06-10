@@ -41,7 +41,11 @@ export function PackageCard({ data, onEnquire }: PackageCardProps) {
           <p className={cn("text-xs font-medium tracking-[0.15em] uppercase", accent.eyebrow)}>
             {data.category}
           </p>
-          {data.popular && <Badge className="shrink-0">Popular</Badge>}
+          {data.popular && (
+            <Badge className={cn("shrink-0", accent.bar, "text-primary-foreground")}>
+              Popular
+            </Badge>
+          )}
         </div>
         <h3 className="font-heading mt-1.5 text-xl font-semibold text-foreground">{data.name}</h3>
 
