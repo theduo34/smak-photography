@@ -22,7 +22,11 @@ export function WhatsAppButton({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={cn(buttonVariants({ variant: "default", size }), className)}
+      className={cn(
+        buttonVariants({ variant: "default", size }),
+        "bg-whatsapp text-primary-foreground hover:bg-whatsapp/85",
+        className
+      )}
     >
       <MessageCircle data-icon="inline-start" />
       Chat on WhatsApp
