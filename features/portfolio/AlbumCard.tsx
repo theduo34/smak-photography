@@ -25,7 +25,7 @@ export function AlbumCard({ album, index = 0 }: AlbumCardProps) {
       transition={{ duration: 0.5, delay: (index % 6) * 0.06, ease: "easeOut" }}
     >
       <Link href={`/portfolio/${album.slug}`} className="group block">
-        <div className="relative aspect-[16/11] overflow-hidden rounded-xl">
+        <div className="relative aspect-16/11 overflow-hidden rounded-xl">
           <Image
             src={album.cover.url}
             alt={album.cover.alt}

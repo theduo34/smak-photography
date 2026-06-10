@@ -6,34 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="b55cd189-95a9-47f5-8d2f-dc0ec3ecaa25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(public)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(public)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pwtest/check5.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/layout/SiteFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/SiteFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/AboutPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/pages/AlbumPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/AlbumPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/ContactPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/ContactPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/SectionHeading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/SectionHeading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/SocialIcons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/SocialIcons.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/SocialLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/SocialLinks.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/site.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/contact/ContactChannels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/contact/ContactChannels.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/enquiry/CallButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/CallButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/enquiry/EnquiryDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/EnquiryDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/enquiry/WhatsAppButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/WhatsAppButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home/AboutSnippet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/AboutSnippet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home/BookingCTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/BookingCTA.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home/FeaturedAlbums.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/FeaturedAlbums.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/home/ServicesTeaser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/ServicesTeaser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/enquiry/EnquiryForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/EnquiryForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/portfolio/AlbumCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/portfolio/AlbumCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pricing/FeatureList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/FeatureList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pricing/PackageCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/PackageCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/pricing/PriceTag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/PriceTag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,10 +106,23 @@
       <workItem from="1780921753177" duration="21549000" />
       <workItem from="1781027053123" duration="66000" />
       <workItem from="1781090106485" duration="354000" />
+      <workItem from="1781108615341" duration="5869000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/features/portfolio/AlbumBackLink.tsx</url>
+          <line>2</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

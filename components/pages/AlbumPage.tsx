@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
-import { ChevronLeft } from "lucide-react";
 import { PhotoGrid } from "@/features/portfolio/PhotoGrid";
+import { AlbumBackLink } from "@/features/portfolio/AlbumBackLink";
 import type { Doc } from "@/convex/_generated/dataModel";
 
 type AlbumPageProps = {
@@ -31,14 +30,8 @@ export function AlbumPage({ album, photos }: AlbumPageProps) {
           className="object-cover"
         />
         <div className="image-overlay" aria-hidden />
-        <div className="section-shell absolute inset-x-0 top-20 z-10 sm:top-24">
-          <Link
-            href="/portfolio"
-            className="inline-flex items-center gap-1 rounded-full border border-background/30 bg-foreground/20 py-2 pr-4 pl-2.5 text-sm font-medium text-background backdrop-blur-sm transition-colors hover:bg-foreground/30"
-          >
-            <ChevronLeft className="size-4" />
-            Back
-          </Link>
+        <div className="section-shell absolute inset-x-0 top-20 z-10">
+          <AlbumBackLink />
         </div>
         <div className="section-shell relative z-10 flex flex-col gap-3 pt-32 pb-12 text-background">
           <span className="text-sm font-medium tracking-wide text-background/80 uppercase">

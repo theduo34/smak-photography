@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { socialIcons } from "@/components/shared/SocialIcons";
+import { socialIcons, socialBrandColors } from "@/components/shared/SocialIcons";
 import { cn } from "@/lib/utils";
 
 type SocialLinksProps = {
@@ -20,7 +20,7 @@ export function SocialLinks({ socials, className }: SocialLinksProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              {Icon && <Icon className="size-4" />}
+              {Icon && <Icon className={cn("size-4", socialBrandColors[social.platform])} />}
               {social.platform}
             </Link>
           </li>
