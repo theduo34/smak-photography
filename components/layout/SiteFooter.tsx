@@ -13,9 +13,15 @@ export function SiteFooter({ phone, whatsapp, address }: SiteFooterProps) {
   const year = new Date().getFullYear();
 
   return (
+      <div className={"relative bg-background"}>
+      <div aria-hidden className="pointer-events-none absolute inset-0 select-none">
+        <div className="dot-grid absolute inset-0 opacity-60" />
+      </div>
     <footer className="relative section-shell overflow-hidden pt-4 sm:pt-8">
+
       <div className="relative z-10 overflow-hidden rounded-3xl border border-border bg-card">
-        <div className="grid gap-10 px-6 py-16 sm:px-10  md:grid-cols-[1.5fr_1fr_1fr]">
+
+        <div className="relative grid gap-10 px-6 py-16 sm:px-10 md:grid-cols-[1.5fr_1fr_1fr]">
           <div className="flex flex-col gap-3">
             <Link href="/" className="flex items-center gap-2">
               <Image
@@ -58,7 +64,7 @@ export function SiteFooter({ phone, whatsapp, address }: SiteFooterProps) {
           </div>
         </div>
 
-        <div className="border-t border-border px-6 sm:px-10">
+        <div className="relative border-t border-border px-6 sm:px-10">
           <div className="flex flex-col items-center justify-between gap-2 py-6 text-xs text-muted-foreground sm:flex-row">
             <p>
               &copy; {year} {siteConfig.name}. All rights reserved.
@@ -71,11 +77,12 @@ export function SiteFooter({ phone, whatsapp, address }: SiteFooterProps) {
 
       <p
         aria-hidden
-        className="mt-2 translate-y-[40%] whitespace-nowrap text-center font-heading text-[30vw] leading-none font-semibold tracking-widest text-foreground/10 select-none sm:mt-4 sm:text-[9vw]"
+        className="mt-2 overflow-hidden text-center font-heading text-[min(30vw,9rem)] leading-none font-semibold tracking-widest text-foreground/10 select-none sm:mt-4 sm:text-[min(7vw,6.5rem)]"
       >
         <span className="sm:hidden">SMAK</span>
         <span className="hidden sm:inline">SMAK PHOTOGRAPHY</span>
       </p>
     </footer>
+      </div>
   );
 }

@@ -27,7 +27,7 @@ export function HomePage({
   return (
     <>
       <Hero
-        image={hero.image}
+        images={hero.images}
         headline={hero.headline}
         subtext={hero.subtext}
         whatsapp={contact.whatsapp}

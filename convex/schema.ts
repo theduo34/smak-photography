@@ -20,12 +20,14 @@ export default defineSchema({
 
   siteSettings: defineTable({
     hero: v.object({
-      image,
+      images: v.array(image),
       headline: v.string(),
       subtext: v.string(),
     }),
     aboutSnippet: v.string(),
     aboutFull: v.string(),
+    aboutImage: image,
+    stats: v.array(v.object({ label: v.string(), value: v.string() })),
     phone: v.string(),
     whatsapp: v.string(),
     email: v.string(),

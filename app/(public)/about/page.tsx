@@ -12,5 +12,13 @@ export const metadata: Metadata = {
 export default async function Page() {
   const settings = await fetchQuery(api.siteSettings.get, {});
 
-  return <AboutPage aboutFull={settings?.aboutFull ?? null} />;
+  return (
+    <AboutPage
+      aboutFull={settings?.aboutFull ?? null}
+      aboutImage={settings?.aboutImage ?? null}
+      stats={settings?.stats ?? []}
+      whatsapp={settings?.whatsapp ?? ""}
+      phone={settings?.phone ?? ""}
+    />
+  );
 }

@@ -372,10 +372,28 @@ export const run = internalMutation({
 
     await ctx.db.insert("siteSettings", {
       hero: {
-        image: image(
-          categoryPhotoIds.Weddings[0],
-          "Bride and groom holding hands at sunset in Koforidua"
-        ),
+        images: [
+          image(
+            categoryPhotoIds.Weddings[0],
+            "Bride and groom holding hands at sunset in Koforidua"
+          ),
+          image(
+            categoryPhotoIds.Portraits[0],
+            "Natural light portrait session in Koforidua"
+          ),
+          image(
+            categoryPhotoIds.Events[0],
+            "Guests celebrating together at an evening event"
+          ),
+          image(
+            categoryPhotoIds.Studio[0],
+            "Professional studio portrait lighting setup"
+          ),
+          image(
+            categoryPhotoIds.Commercial[0],
+            "Product photography for a local Koforidua brand"
+          ),
+        ],
         headline: "Capturing Koforidua's stories, one frame at a time",
         subtext:
           "Smak Photography is a Koforidua-based studio specializing in weddings, portraits, and events across Ghana.",
@@ -384,6 +402,16 @@ export const run = internalMutation({
         "Founded in Koforidua, Smak Photography blends technical precision with genuine warmth, turning everyday moments into images you will want to keep for a lifetime.",
       aboutFull:
         "Smak Photography started in Koforidua with a simple idea: photography should feel like a conversation, not a performance. What began as weekend portrait sessions for friends has grown into a full studio covering weddings, portraits, events, and commercial work across the Eastern Region and beyond.\n\nWe believe the best images come from people feeling like themselves, so every session starts with a conversation about what matters to you, not a checklist of poses. From the first phone call to the final gallery, we aim to make the experience as enjoyable as the photographs themselves.\n\nToday, the studio works with couples, families, organisations, and brands who want images that feel honest, warm, and true to who they are. Wherever you are in Ghana, we would love to help tell your story.",
+      aboutImage: image(
+        categoryPhotoIds.Studio[2],
+        "Smak Photography photographer at work in the studio"
+      ),
+      stats: [
+        { value: "8+", label: "Years in business" },
+        { value: "500+", label: "Happy clients" },
+        { value: "150+", label: "Weddings captured" },
+        { value: "10k+", label: "Photos delivered" },
+      ],
       phone: "+233 24 123 4567",
       whatsapp: "+233241234567",
       email: "hello@smakphotography.com",
@@ -392,8 +420,9 @@ export const run = internalMutation({
       mapsUrl: "https://maps.google.com/maps?q=Koforidua%2C+Ghana&output=embed",
       socials: [
         { platform: "Instagram", url: "https://instagram.com/smakphotography" },
-        { platform: "Facebook", url: "https://facebook.com/smakphotography" },
         { platform: "TikTok", url: "https://tiktok.com/@smakphotography" },
+        { platform: "Snapchat", url: "https://snapchat.com/add/smakphotography" },
+        { platform: "YouTube", url: "https://youtube.com/@smakphotography" },
       ],
     });
 

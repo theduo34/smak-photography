@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b55cd189-95a9-47f5-8d2f-dc0ec3ecaa25" name="Changes" comment="" />
+    <list default="true" id="b55cd189-95a9-47f5-8d2f-dc0ec3ecaa25" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(public)/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(public)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/SiteFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/SiteFooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/AlbumPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/AlbumPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/ContactPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/ContactPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/SectionHeading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/SectionHeading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/SocialLinks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/SocialLinks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/site.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/site.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convex/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convex/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/contact/ContactChannels.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/contact/ContactChannels.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/enquiry/CallButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/CallButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/enquiry/EnquiryDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/EnquiryDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/enquiry/WhatsAppButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/enquiry/WhatsAppButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/home/AboutSnippet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/AboutSnippet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/home/BookingCTA.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/BookingCTA.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/home/FeaturedAlbums.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/FeaturedAlbums.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/home/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/home/ServicesTeaser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/home/ServicesTeaser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/portfolio/AlbumCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/portfolio/AlbumCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pricing/FeatureList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/FeatureList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pricing/PackageCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/PackageCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pricing/PriceTag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/pricing/PriceTag.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="21" />
+    <option name="cachedIndexableFilesCount" value="218" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,34 +50,46 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3Er1C38MF2mgmliqUbIKOAl6qxx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "bun",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;bun&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Work/Smak/smak-photography/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;bun&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Work\\Smak\\smak-photography\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Work\Smak\smak-photography\app" />
+      <recent name="C:\Users\Work\Smak\smak-photography\public\images\logo" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -74,7 +119,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780921746495</updated>
-      <workItem from="1780921753177" duration="416000" />
+      <workItem from="1780921753177" duration="21549000" />
+      <workItem from="1781027053123" duration="66000" />
+      <workItem from="1781090106485" duration="354000" />
     </task>
     <servers />
   </component>
