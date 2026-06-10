@@ -30,10 +30,10 @@ export function AlbumPage({ album, photos }: AlbumPageProps) {
           className="object-cover"
         />
         <div className="image-overlay" aria-hidden />
-        <div className="section-shell absolute inset-x-0 top-20 z-10">
+        <div className="section-shell absolute inset-x-0 top-20 z-20">
           <AlbumBackLink />
         </div>
-        <div className="section-shell relative z-10 flex flex-col gap-3 pt-32 pb-12 text-background">
+        <div className="section-shell relative z-10 flex flex-col gap-3 pt-24 pb-12 text-background sm:pt-32">
           <span className="text-sm font-medium tracking-wide text-background/80 uppercase">
             {album.category} · {formatShootDate(album.shootDate)}
           </span>

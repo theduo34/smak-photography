@@ -22,7 +22,7 @@ export function Hero({ images, headline, subtext, whatsapp }: HeroProps) {
     <section className="relative -mt-16 flex min-h-[88vh] items-end overflow-hidden">
       <HeroCarousel images={images} />
       <div className="image-overlay" aria-hidden />
-      <div className="section-shell relative z-10 flex flex-col gap-6 pt-32 pb-16 sm:pb-24">
+      <div className="section-shell relative z-10 flex flex-col gap-6 pt-24 pb-16 sm:pt-32 sm:pb-24">
         <motion.span
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

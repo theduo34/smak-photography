@@ -5,9 +5,10 @@ import { cn } from "@/lib/utils";
 type SocialLinksProps = {
   socials: Array<{ platform: string; url: string }>;
   className?: string;
+  iconOnly?: boolean;
 };
 
-export function SocialLinks({ socials, className }: SocialLinksProps) {
+export function SocialLinks({ socials, className, iconOnly = false }: SocialLinksProps) {
   return (
     <ul className={cn("flex flex-col gap-2", className)}>
       {socials.map((social) => {
@@ -18,10 +19,15 @@ export function SocialLinks({ socials, className }: SocialLinksProps) {
               href={social.url}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={social.platform}
               className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
-              {Icon && <Icon className={cn("size-4", socialBrandColors[social.platform])} />}
-              {social.platform}
+              {Icon && (
+                <Icon
+                  className={cn(iconOnly ? "size-5" : "size-4", socialBrandColors[social.platform])}
+                />
+              )}
+              {!iconOnly && social.platform}
             </Link>
           </li>
         );

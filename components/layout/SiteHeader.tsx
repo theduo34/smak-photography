@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Logo } from "@/components/shared/Logo";
 import {
   Sheet,
   SheetClose,
@@ -58,25 +58,16 @@ export function SiteHeader() {
     >
       <div className="section-shell flex h-16 items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <Image
-            src="/images/logo/logo-1-removebg-preview.png"
-            alt={siteConfig.name}
-            width={36}
-            height={36}
-            priority
-            className={cn(
-              "size-9 object-contain transition-[filter] duration-300",
+          <Logo
+            imageClassName={cn(
+              "size-12 transition-[filter] duration-300",
               transparent ? "invert dark:invert-0" : "dark:invert"
             )}
-          />
-          <span
-            className={cn(
-              "font-heading text-base font-semibold tracking-tight transition-colors duration-300",
+            textClassName={cn(
+              "transition-colors duration-300",
               transparent ? "text-background" : "text-foreground"
             )}
-          >
-            {siteConfig.name}
-          </span>
+          />
         </Link>
 
         <div className="flex items-center gap-1">
