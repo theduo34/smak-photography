@@ -41,10 +41,7 @@ export function ServicesTeaser({ packages, phone, whatsapp }: ServicesTeaserProp
           ))}
         </div>
 
-        <Link
-          href="/services"
-          className="inline-flex items-center gap-1.5 self-center text-sm font-medium text-foreground hover:text-muted-foreground"
-        >
+        <Link href="/services" className="link-arrow self-center">
           View all packages
           <ArrowUpRight className="size-4" />
         </Link>

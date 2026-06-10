@@ -26,10 +26,7 @@ export function FeaturedAlbums({ albums }: FeaturedAlbumsProps) {
                     ))}
                 </div>
 
-                <Link
-                    href="/portfolio"
-                    className="inline-flex items-center gap-1.5 self-center text-sm font-medium text-foreground hover:text-muted-foreground"
-                >
+                <Link href="/portfolio" className="link-arrow self-center">
                     View all albums
                     <ArrowUpRight className="size-4" />
                 </Link>
