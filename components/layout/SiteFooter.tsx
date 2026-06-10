@@ -77,7 +77,7 @@ export function SiteFooter({ phone, whatsapp, address }: SiteFooterProps) {
 
       <p
         aria-hidden
-        className="mt-2 overflow-hidden text-center font-heading text-[min(30vw,9rem)] leading-none font-semibold tracking-widest text-foreground/10 select-none sm:mt-4 sm:text-[min(7vw,6.5rem)]"
+        className="mt-2 h-[0.5em] overflow-hidden text-center font-heading text-[min(28vw,9rem)] leading-none font-semibold tracking-normal text-foreground/10 select-none sm:mt-4 sm:text-[min(7vw,6.5rem)] sm:tracking-widest"
       >
         <span className="sm:hidden">SMAK</span>
         <span className="hidden sm:inline">SMAK PHOTOGRAPHY</span>
