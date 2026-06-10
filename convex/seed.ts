@@ -396,7 +396,7 @@ export const run = internalMutation({
         ],
         headline: "Capturing Koforidua's stories, one frame at a time",
         subtext:
-          "Smak Photography is a Koforidua-based studio specializing in weddings, portraits, and events across Ghana.",
+          "Weddings, portraits, and events, captured with warmth, light, and an eye for the genuine moments. Proudly based in Koforidua, serving clients across Ghana.",
       },
       aboutSnippet:
         "Founded in Koforidua, Smak Photography blends technical precision with genuine warmth, turning everyday moments into images you will want to keep for a lifetime.",
