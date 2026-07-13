@@ -2,8 +2,11 @@ import { defineSchema, defineTable } from "convex/server";
 import { authTables } from "@convex-dev/auth/server";
 import { v } from "convex/values";
 
-const image = v.object({
+export const image = v.object({
   url: v.string(),
+  // Set when the image was uploaded through the admin (vs. a seeded external URL).
+  // Lets admin mutations clean up the underlying file when an image is replaced or removed.
+  storageId: v.optional(v.id("_storage")),
   width: v.number(),
   height: v.number(),
   blurDataURL: v.string(),
@@ -17,6 +20,23 @@ const social = v.object({
 
 export default defineSchema({
   ...authTables,
+
+  // Extends the auth library's default `users` table (name, image, email,
+  // etc.) with the admin's own profile fields. See
+  // https://labs.convex.dev/auth/setup/schema for the extension pattern.
+  users: defineTable({
+    name: v.optional(v.string()),
+    image: v.optional(v.string()),
+    email: v.optional(v.string()),
+    emailVerificationTime: v.optional(v.number()),
+    phone: v.optional(v.string()),
+    phoneVerificationTime: v.optional(v.number()),
+    isAnonymous: v.optional(v.boolean()),
+    firstName: v.optional(v.string()),
+    lastName: v.optional(v.string()),
+  })
+    .index("email", ["email"])
+    .index("phone", ["phone"]),
 
   siteSettings: defineTable({
     hero: v.object({
@@ -91,5 +111,7 @@ export default defineSchema({
       v.literal("booked"),
       v.literal("closed")
     ),
+    // Internal admin follow-up notes, never shown to the enquirer.
+    notes: v.optional(v.string()),
   }).index("by_status", ["status"]),
 });

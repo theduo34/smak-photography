@@ -7,7 +7,7 @@ type CategoryFilterProps = {
 };
 
 const pill =
-  "rounded-full border px-4 py-1.5 text-sm font-medium transition-colors";
+  "rounded-md border px-4 py-1.5 text-sm font-medium transition-colors";
 const pillActive = "border-foreground bg-foreground text-background";
 const pillInactive =
   "border-border text-muted-foreground hover:border-foreground/40 hover:text-foreground";

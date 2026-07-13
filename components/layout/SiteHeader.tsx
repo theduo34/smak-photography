@@ -76,7 +76,7 @@ export function SiteHeader() {
             <SheetTrigger
               render={
                 <Button variant="ghost" size="icon" aria-label="Open menu" className={trigger}>
-                  <Menu className="size-5" />
+                  <Menu className="size-6" />
                 </Button>
               }
             />

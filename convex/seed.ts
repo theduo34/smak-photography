@@ -394,7 +394,7 @@ export const run = internalMutation({
             "Product photography for a local Koforidua brand"
           ),
         ],
-        headline: "Capturing Koforidua's stories, one frame at a time",
+        headline: "Capturing Ghana's stories, one frame at a time",
         subtext:
           "Weddings, portraits, and events, captured with warmth, light, and an eye for the genuine moments. Proudly based in Koforidua, serving clients across Ghana.",
       },

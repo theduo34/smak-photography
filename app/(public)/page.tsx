@@ -3,6 +3,9 @@ import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
 import { HomePage } from "@/components/pages/HomePage";
 import { siteConfig } from "@/config/site";
+import { pickRandom } from "@/lib/utils";
+
+const MAX_FEATURED_ALBUMS = 4;
 
 export const metadata: Metadata = {
   title: { absolute: `${siteConfig.name} — ${siteConfig.tagline}` },
@@ -26,7 +29,7 @@ export default async function Page() {
   return (
     <HomePage
       hero={settings.hero}
-      featuredAlbums={featuredAlbums}
+      featuredAlbums={pickRandom(featuredAlbums, MAX_FEATURED_ALBUMS)}
       popularPackages={popularPackages}
       aboutSnippet={settings.aboutSnippet}
       contact={{ phone: settings.phone, whatsapp: settings.whatsapp }}

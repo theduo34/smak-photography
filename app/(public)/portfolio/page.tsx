@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import { fetchQuery } from "convex/nextjs";
-import { api } from "@/convex/_generated/api";
 import { PortfolioPage } from "@/components/pages/PortfolioPage";
 import { siteConfig } from "@/config/site";
 
@@ -21,10 +19,5 @@ export default async function Page({ searchParams }: Props) {
     ? category
     : undefined;
 
-  const albums = await fetchQuery(
-    api.albums.listPublished,
-    activeCategory ? { category: activeCategory } : {}
-  );
-
-  return <PortfolioPage albums={albums} category={activeCategory} />;
+  return <PortfolioPage category={activeCategory} />;
 }

@@ -164,7 +164,7 @@
 
 @layer components {
   .section-shell {
-    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+    @apply mx-auto w-full max-w-7xl px-4 ;
   }
   .section-padding {
     @apply py-16 sm:py-24;
@@ -185,5 +185,20 @@
    }
   .link-arrow {
     @apply inline-flex items-center gap-1.5 text-sm font-medium text-foreground transition-colors hover:text-primary;
+  }
+  .admin-heading {
+    @apply font-heading text-xl font-semibold text-foreground lg:text-2xl;
+  }
+  .admin-subheading {
+    @apply text-sm text-muted-foreground lg:text-base;
+  }
+  /* Shared sizing for admin form inputs/selects — overrides the shared
+     Input/Select components' own md:text-sm shrink so fields stay
+     comfortably large at every breakpoint, and caps radius at md. */
+  .admin-field {
+    @apply h-11 rounded-md text-base md:text-base;
+  }
+  .admin-textarea {
+    @apply rounded-md text-base md:text-base;
   }
 }
