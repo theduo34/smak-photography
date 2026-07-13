@@ -6,32 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b55cd189-95a9-47f5-8d2f-dc0ec3ecaa25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(admin)/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(public)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(public)/portfolio/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/portfolio/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(public)/portfolio/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(public)/portfolio/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout/SiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/layout/SiteHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pages/PortfolioPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/pages/PortfolioPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/_generated/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/_generated/api.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/albums.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/albums.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/enquiries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/enquiries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/packages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/packages.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/photos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/photos.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convex/siteSettings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/convex/siteSettings.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/portfolio/AlbumBackLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/portfolio/AlbumBackLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/portfolio/AlbumGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/portfolio/AlbumGrid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/portfolio/CategoryFilter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/features/portfolio/CategoryFilter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +98,7 @@
       <workItem from="1781199524062" duration="94000" />
       <workItem from="1781260374928" duration="79000" />
       <workItem from="1781648398318" duration="821000" />
-      <workItem from="1783956465240" duration="15489000" />
+      <workItem from="1783956465240" duration="16352000" />
     </task>
     <servers />
   </component>
