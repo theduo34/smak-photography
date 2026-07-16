@@ -11,8 +11,13 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const slugs = await fetchQuery(api.albums.listPublishedSlugs, {});
-  return slugs.map((slug) => ({ slug }));
+  try {
+    const slugs = await fetchQuery(api.albums.listPublishedSlugs, {});
+    return slugs.map((slug) => ({ slug }));
+  } catch (error) {
+    console.error("DEBUG generateStaticParams failed:", error);
+    throw error;
+  }
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
